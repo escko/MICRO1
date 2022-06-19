@@ -96,7 +96,7 @@
                         bindings = <
    &trans &trans &trans     &trans &kp C  &kp J                  &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
    &trans &trans &trans     &kp M  &kp G  &kp K                 &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
-   &trans &trans &kp PERIOD     &kp SEMICOLON  &kp I &mo BLUE                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
+   &trans &trans &kp PERIOD &kp SEMICOLON  &mo BLUE &kp LA(N1)                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                             &kp P &kp X &kp COMMA                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp LC(LBKT) LC(RBKT) &inc_dec_kp LC(LBKT) LC(RBKT)>;
@@ -124,7 +124,7 @@
                         bindings = <
    &trans &trans &trans        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2                  &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
    &trans &trans &trans        &rgb_ug RGB_BRD &rgb_ug RGB_BRI  &rgb_ug RGB_HUD                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
-   &trans &trans &trans        &rgb_ug RGB_SAD &rgb_ug RGB_SAI  &trans                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
+   &trans &trans &trans        &rgb_ug RGB_SAD &trans &rgb_ug RGB_SAI                              &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                &bootloader &trans &bt BT_CLR                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LBKT RBKT>;
