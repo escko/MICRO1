@@ -16,16 +16,16 @@
 #define PRO1    6
 #define PRO2    7
 
-&left_encoder { resolution = <2>; };
-&left1_encoder { resolution = <4>; };
+&left_encoder { resolution = <1>; };
+//&left1_encoder { resolution = <4>; };
 // &right_encoder { resolution = <1>; };
 
 &mt {
-    tapping-term-ms = <135>;
+    tapping-term-ms = <133>;
 };
 
 &lt {
-    tapping-term-ms = <135>;
+    tapping-term-ms = <133>;
 };
 
 &spi1 {
