@@ -138,8 +138,8 @@
                         bindings = <
    &trans &trans &trans     &lt PRO1 L     &kp LBKT   &kp RBKT                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
    &trans &trans &trans     &lt PRO2 B     &kp E      &kp S                 &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
-   &trans &trans &kp V      &kp LG(C)      &kp LG(V)  &kp LG(K)                           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
-                            &kp SPACE &kp C &kp LALT                    &mo RAISE &lt LOWER SPACE &kp LGUI
+   &trans &trans &kp C      &kp LG(C)      &kp LG(V)  &kp LG(K)                           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
+                            &kp SPACE &kp V &kp LALT                    &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp LG(LBKT) LG(RBKT)>;
                 };
